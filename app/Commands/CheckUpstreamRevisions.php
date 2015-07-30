@@ -57,5 +57,7 @@ class CheckUpstreamRevisions extends Command {
 	 * @see setCode()
 	 */
 	protected function execute( InputInterface $input, OutputInterface $output ) {
+		$remote     = $input->getArgument( 'upstream' );
+		$repository = $this->factory->create( $remote );
 	}
 }
