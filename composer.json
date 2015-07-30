@@ -13,5 +13,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "bin": ["bin/run"],
+    "autoload": {
+        "psr4": {"JPB\\WordPress\\Updater\\": "app/"
+    }
 }
