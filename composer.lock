@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "be3f397a2d643b0865a232852af7c856",
+    "hash": "4413830f77eafb77bee98c2139920ae4",
     "packages": [
         {
             "name": "symfony/console",

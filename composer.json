@@ -16,6 +16,6 @@
     "prefer-stable": true,
     "bin": ["bin/run"],
     "autoload": {
-        "psr4": {"JPB\\WordPress\\Updater\\": "app/"
+        "psr4": {"JPB\\WordPress\\Updater\\": "app/"}
     }
 }
