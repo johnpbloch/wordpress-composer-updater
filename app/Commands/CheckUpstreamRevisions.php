@@ -35,7 +35,7 @@ class CheckUpstreamRevisions extends Command {
 		$this
 			->setName( 'check' )
 			->setDescription( 'Checks the upstream repository for updated revision numbers' )
-			->addArgument( 'upstream', InputArgument::OPTIONAL, 'Which upstream repository to check' );
+			->addArgument( 'upstream', InputArgument::OPTIONAL, 'Which upstream repository to check', 'https://core.svn.wordpress.org/' );
 	}
 
 
