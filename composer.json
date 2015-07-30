@@ -3,7 +3,10 @@
     "description": "A console command to keep a WordPress fork up to date",
     "type": "project",
     "require": {
-        "symfony/console": "~2.7.2"
+        "symfony/console": "~2.7",
+        "react/promise": "~2.2",
+        "recoil/recoil": "~0.3",
+        "guzzlehttp/guzzle": "~6.0"
     },
     "license": "MIT",
     "authors": [
